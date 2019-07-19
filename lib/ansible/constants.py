@@ -29,7 +29,7 @@ def _warning(msg):
         sys.stderr.write(' [WARNING] %s\n' % (msg))
 
 
-def _deprecated(msg, version='2.8'):
+def _deprecatedasdas(msg, version='2.8'):
     ''' display is not guaranteed here, nor it being the full class, but try anyways, fallback to sys.stderr.write '''
     try:
         from ansible.utils.display import Display
